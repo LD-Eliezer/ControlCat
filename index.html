@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/Login.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+    <title>Login TCC</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="form sign-in">
+            <h2>Login</h2>
+            <label>
+                <span>Seu Email:</span>
+                <input type="email" name="Email" id="Email">
+            </label>
+            <label>
+                <span>Senha:</span>
+                <input type="password" name="Senha" id="Senha">
+            </label>
+            <button onclick="log(); return false" class="submit" type="submit">Login</button>
+            <p class="forgot-pass">Esqueceu sua Senha?</p>
+            <div class="social-media">
+                <ul>
+                    <li><img src="images/facebook.png"></li>
+                    <li><img src="images/instagram.png"></li>
+                    <li><img src="images/twitter.png"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img-text m-up">
+                    <h2>Gostaria de se Cadastrar</h2>
+                    <p>Cadastre-se para ter acesso a conteúdos exclusivos</p>
+                </div>
+                <div class="img-text m-in">
+                    <h2>Já se Cadastrou?</h2>
+                    <p>Se você já tem uma conta, faça login clicando no botão abaixo</p>
+                </div>
+                <div class="img-btn">
+                    <span class="m-up">Cadastrar</span>
+                    <span class="m-in">Login</span>
+                </div>
+            </div>
+            <form id="cad">
+                <div class="form sign-up">
+                    <h2>Cadastrar-se</h2>
+                    <label>
+                        <span>Seu Nome</span>
+                        <input name="nome" type="text" id="nome" required>
+
+                    </label>
+                    <label>
+                        <span>Seu email</span>
+                        <input name="email" type="email" id="email" required>
+
+                    </label>
+                    <label>
+                        <span>Senha</span>
+                        <input name="senha" type="password" id="senha" required>
+
+                    </label>
+                    <label>
+                        <span>Confirmar Senha</span>
+                        <input type="password" id="Csenha" required>
+                    </label>
+                    <button onclick="cad(); return false" id="cadastrar"type="submit" class="submit" >Cadastrar</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+
+    <script src="js/Login.js"></script>
+
+</body>
+</html>
