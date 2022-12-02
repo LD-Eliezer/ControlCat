@@ -1,0 +1,60 @@
+body{
+    background: -webkit-linear-gradient(left, #3F0071,#150050, #3F0071);
+    font-family: 'Nunito', sans-serif;
+}
+
+img{
+    display: flex;
+    width: 200px;
+    margin-right: -60px;
+    margin-top: 0px;
+
+}
+
+.center {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+
+.about-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+nav{
+    background: -webkit-linear-gradient(left, #3F0071,#150050, #3F0071);
+}
+
+footer {
+    background: -webkit-linear-gradient(left, #3F0071,#150050, #3F0071);
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar.navbar-dark.navbar-expand-lg .container-fluid .about-header.badge{
+    background: -webkit-linear-gradient(left, #150050, #3F0071,#150050);
+}
+
+.navbar.navbar-dark.navbar-expand-lg .container-fluid .collapse.navbar-collapse ul{
+    background: -webkit-linear-gradient(left, #150050, #3F0071,#150050);
+}
+
+.navbar.navbar-dark.navbar-expand-lg .container-fluid .collapse.navbar-collapse .dropdown-item{
+    color: white;
+}
+
+.container.px-5.my-5 .row.gx-5.justify-content-center .col-lg-8.col-xl-6 .text-center .novi{
+    background: -webkit-linear-gradient(left, #150050, #3F0071,#150050);
+}
+.navbar-nav.me-auto.mb-2.mb-lg-0.bg-black.badge.py-3.border-bottom.border-end.border-top{
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
